@@ -14,7 +14,12 @@ body {
 }
 
 header {
-    background: linear-gradient(#181717, #747070) no-repeat;
+    /*background: linear-gradient(#181717, #747070) no-repeat;*/
+    background: rgb(9, 9, 121);
+    background: linear-gradient(90deg, 
+    rgba(9, 9, 121, 1) 0%, 
+    rgba(9, 9, 121, 1) 50%, 
+    rgba(255, 106, 0, 1));
 }
 
 #logo-header {
