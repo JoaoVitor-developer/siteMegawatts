@@ -13,48 +13,88 @@ body {
     font-family: "Merriweather", serif;
 }
 
-header {
-    /*background: linear-gradient(#181717, #747070) no-repeat;*/
+/*header {
     background: rgb(9, 9, 121);
     background: linear-gradient(90deg, 
     rgba(9, 9, 121, 1) 0%, 
     rgba(9, 9, 121, 1) 50%, 
     rgba(255, 106, 0, 1));
+    background: rgba(5, 5, 8, 0.777);
+    height: 150px;
+}
+*/
+
+.logo-header {
+    width: 300px;
+    height: 150px;
+}
+
+nav.menu-lateral {
+    width: 65px;
+    height: 100%;
+    background-color: #383837;
+    padding: 40px 0 40px 1%;
+    box-shadow: 4px 0 0 #171775;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+
+nav.menu-lateral:hover {
+    width: 300px;
+}
+
+.btn-expandir {
+    width: 100%;
+    padding-left: 10px;
+}
+
+.btn-expandir > i {
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+ul {
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu {
+    transition: .2s;
+}
+
+ul li.ativo {
+    background-color: #171775;
+}
+
+ul li.item-menu:hover {
+   background-color: #171775;
+}
+
+ul li.item-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+ul li.item-menu a .txt-link {
+    margin-left: 30px;
+}
+
+ul li.item-menu a .icon > i {
+    font-size: 25px;
 }
 
 #logo-header {
     height: 100px;
     width: 250px;
-}
-
-ul {
-    display: flex;
-    justify-content: space-around;
-    text-decoration: none;
-    list-style: none;
-    align-items: center;
-}
-
-li {
-    background-color: #726e6e;
-    width: 130px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 7px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-li:hover {
-    background-color: #181717;
-}
-
-a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-size: 20px;
 }
 
 .slider {
