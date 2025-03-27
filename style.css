@@ -24,11 +24,6 @@ body {
 }
 */
 
-.logo-header {
-    width: 300px;
-    height: 150px;
-}
-
 nav.menu-lateral {
     width: 65px;
     height: 100%;
@@ -39,10 +34,10 @@ nav.menu-lateral {
     top: 0;
     left: 0;
     overflow: hidden;
-    transition: .2s;
+    transition: .4s;
 }
 
-nav.menu-lateral:hover {
+nav.menu-lateral.expadir {
     width: 300px;
 }
 
@@ -80,21 +75,30 @@ ul li.item-menu a {
     font-size: 20px;
     padding: 20px 4%;
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     line-height: 40px;
 }
 
 ul li.item-menu a .txt-link {
-    margin-left: 30px;
+    margin-left: 40px;
+    transition: .4s;
+}
+
+nav.menu-lateral.expandir .txt-link {
+    margin-left: 40px;
 }
 
 ul li.item-menu a .icon > i {
     font-size: 25px;
 }
 
-#logo-header {
-    height: 100px;
-    width: 250px;
+.position-cartaz {
+    margin-left: 69px;
+    overflow: hidden;
+}
+
+.logo-header-01 {
+    width: 200px;
 }
 
 .slider {
