@@ -92,12 +92,11 @@ ul li.item-menu a .icon > i {
     font-size: 25px;
 }
 
-.position-cartaz {
+.position-logo {
     margin-left: 69px;
-    overflow: hidden;
 }
 
-.logo-header-01 {
+#logo-header-01 {
     width: 200px;
 }
 
