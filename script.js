@@ -40,4 +40,4 @@ var logoHeader01 = document.getElementById('logo-header-01')
         btnExp.addEventListener('click', function () {
             logoHeader01.style.visibility = 'visible'
         })
-});
+    });
