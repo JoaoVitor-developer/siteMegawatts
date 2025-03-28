@@ -31,13 +31,7 @@ menuItem.forEach((item) =>
 
 var btnExp = document.querySelector('#btn-exp')
 var menuSide = document.querySelector('.menu-lateral')
-var logoHeader01 = document.getElementById('logo-header-01')
 
-    btnExp.addEventListener('click', function(){
-        menuSide.classList.toggle('expadir')
-        logoHeader01.style.visibility = 'hidden'
-        
-        btnExp.addEventListener('click', function () {
-            logoHeader01.style.visibility = 'visible'
-        })
-    });
+btnExp.addEventListener('click', function(){
+    menuSide.classList.toggle('expadir')
+});
