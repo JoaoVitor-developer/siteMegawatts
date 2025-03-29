@@ -210,8 +210,7 @@ ul li.item-menu a .icon > i {
 
 .btn-f {
     flex: 1;
-    border: 1px solid #fff;
-    padding: 10px;
+    border: 1px solid #000;
 }
 
 .text-sobre-nos {
@@ -220,8 +219,74 @@ ul li.item-menu a .icon > i {
     border: 1px solid #383837;
     border-radius: 10px;
     background-color: #fff;
+    border: 1px solid #000;
+    padding: 15px;
 }
 
 p {
     letter-spacing: 2px;
+}
+
+.marca-trabalho {
+    color: #fff;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.container-marcas {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.marcas {
+    width: 225px;  
+    cursor: pointer; 
+    border-radius: 50%;
+    filter: grayscale(100%);
+    transition: .9s;
+}
+
+.marcas:hover {
+    filter: grayscale(0%);
+    transform: scale(1.09);
+}
+
+.imagem-marca01 {
+    visibility: visible;
+}
+
+.cartaz {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.cartaz-imagem {
+    width: 700px;
+    border-radius: 5px;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: #383837;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer > span {
+    color: #fff;
+}
+
+.logo-footer {
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 5px;
 }
