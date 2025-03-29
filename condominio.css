@@ -15,20 +15,6 @@ body {
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(255,128,0,1) 100%);
 }
 
-.tel-header {
-    background-color: #383837;
-    color: #fff;
-    width: 100%;
-    height: 30px;
-    font-size: 20px;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.bi-whatsapp {
-    margin-right: 10px;
-}
-
 nav.menu-lateral {
     width: 69px;
     height: 100%;
@@ -96,13 +82,6 @@ ul li.item-menu a .icon > i {
     font-size: 25px;
 }
 
-.position-logo {
-    margin-left: 69px;
-}
-
-#logo-header-01 {
-    width: 200px;
-}
 
 .slider {
     margin: 0 auto;
@@ -166,132 +145,4 @@ ul li.item-menu a .icon > i {
 
 #radio3:checked ~ .first {
     margin-left: -50%;
-}
-
-.navigation-auto div {
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
-}
-
-.navigation-auto {
-    position: absolute;
-    width: 800px;
-    margin-top: 310px;
-    display: flex;
-    justify-content: center;
-}
-
-.navigation-auto div:not(:last-child) {
-    margin-right: 40px;
-}
-
-.sobre-nos {
-    color: #fff;
-    margin-top: 30px;
-    text-align: center;
-    font-size: 20px;
-}
-
-.foto-loja {
-    width: 400px;
-    height: 400px;
-    border-radius: 30px;
-}
-
-.container-sobre-nos {
-    display: flex;
-    margin-top: 20px;
-    margin-left: 10%;
-    margin-right: 10%;
-    gap: 20px;
-}
-
-.btn-f {
-    flex: 1;
-    border: 1px solid #000;
-}
-
-.text-sobre-nos {
-    width: 30%;
-    text-align: center;
-    border: 1px solid #383837;
-    border-radius: 10px;
-    background-color: #fff;
-    border: 1px solid #000;
-    padding: 60px;
-}
-
-p {
-    letter-spacing: 2px;
-}
-
-.marca-trabalho {
-    color: #fff;
-    margin-top: 30px;
-    text-align: center;
-    font-size: 20px;
-}
-
-.container-marcas {
-    background-color: #fff;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 15px;
-    margin-top: 15px;
-}
-
-.marcas {
-    width: 225px;  
-    cursor: pointer; 
-    border-radius: 50%;
-    filter: grayscale(100%);
-    transition: .9s;
-}
-
-.marcas:hover {
-    filter: grayscale(0%);
-    transform: scale(1.09);
-}
-
-.imagem-marca01 {
-    visibility: visible;
-}
-
-.imagem-marca03 {
-    width: 280px;
-}
-
-.cartaz {
-    display: flex;
-    justify-content: center;
-    padding: 30px;
-}
-
-.cartaz-imagem {
-    width: 700px;
-    border-radius: 5px;
-}
-
-footer {
-    width: 100%;
-    height: 300px;
-    background-color: #383837;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}
-
-footer > span {
-    color: #fff;
-    font-size: 13px;
-}
-
-.logo-footer {
-    width: 200px;
-    height: 150px;
-    margin-top: 20px;
-    border-radius: 5px;
 }
