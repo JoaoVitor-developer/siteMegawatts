@@ -243,7 +243,7 @@ p {
 }
 
 .marcas {
-    width: 225px;  
+    width: 200px;  
     cursor: pointer; 
     border-radius: 50%;
     filter: grayscale(100%);
@@ -253,14 +253,6 @@ p {
 .marcas:hover {
     filter: grayscale(0%);
     transform: scale(1.09);
-}
-
-.imagem-marca01 {
-    visibility: visible;
-}
-
-.imagem-marca03 {
-    width: 280px;
 }
 
 .cartaz {
@@ -276,12 +268,13 @@ p {
 
 footer {
     width: 100%;
-    height: 300px;
+    height: 350px;
     background-color: #383837;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    padding: 10px;
 }
 
 footer > span {
@@ -289,9 +282,32 @@ footer > span {
     font-size: 13px;
 }
 
+.bi-telephone-forward-fill {
+    margin-right: 10px;
+}
+
+.bi-envelope-at-fill {
+    margin-right: 10px;
+}
+
 .logo-footer {
     width: 200px;
     height: 150px;
-    margin-top: 20px;
+    margin-top: 15px;
     border-radius: 5px;
+}
+
+.footer-joao-web {
+    background: rgb(0, 0, 0);
+    font-size: 14px;
+    color: #fff;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-joao-web > span {
+    margin-top: 10px;
 }
