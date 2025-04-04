@@ -168,25 +168,6 @@ ul li.item-menu a .icon > i {
     margin-left: -50%;
 }
 
-.navigation-auto div {
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
-}
-
-.navigation-auto {
-    position: absolute;
-    width: 800px;
-    margin-top: 310px;
-    display: flex;
-    justify-content: center;
-}
-
-.navigation-auto div:not(:last-child) {
-    margin-right: 40px;
-}
-
 .sobre-nos {
     color: #fff;
     margin-top: 30px;
