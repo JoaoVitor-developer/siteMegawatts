@@ -32,6 +32,7 @@ menuItem.forEach((item) =>
 var btnExp = document.querySelector('#btn-exp')
 var menuSide = document.querySelector('.menu-lateral')
 var ppaImg = document.getElementById('ppa-imagem')
+var garenImg = document.getElementById('garen-imagem')
 
 btnExp.addEventListener('click', function(){
     menuSide.classList.toggle('expadir')
@@ -40,6 +41,12 @@ btnExp.addEventListener('click', function(){
         ppaImg.style.visibility = 'visible'
     } else {
         ppaImg.style.visibility = 'hidden'
+    }
+
+    if (garenImg.style.visibility === 'hidden') {
+        garenImg.style.visibility = 'visible'
+    } else {
+        garenImg.style.visibility = 'hidden'
     }
 });
 
