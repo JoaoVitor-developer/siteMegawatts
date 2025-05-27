@@ -14,7 +14,9 @@
       background: #1a1a1a;
       color: white;
       padding: 20px;
-      text-align: center;
+      /*text-align: center;*/
+      display: flex;
+      justify-content: space-around;
     }
 
     header h1 {
