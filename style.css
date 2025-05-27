@@ -21,6 +21,11 @@
       font-size: 2rem;
     }
 
+  nav a.active {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+  }
+
     nav {
       margin-top: 10px;
     }
@@ -117,8 +122,50 @@
   
   
   .whatsapp-button img {
-    width: 32px;
-    height: 32px;
+    width: 35px;
+    height: 35px;
+  }
+
+.maps-button {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  z-index: 1000;
+  width: 60px;
+  height: 60px;
+  background-color: #f07d7d;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+  .maps-button img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .instagram-button {
+  position: fixed;
+  bottom: 160px;
+  right: 20px;
+  z-index: 1000;
+  width: 60px;
+  height: 60px;
+  background-color: #e1d0d0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+  .instagram-button img {
+    width: 35px;
+    height: 35px;
   }
 
   .social-buttons {
@@ -131,14 +178,7 @@
   gap: 10px;
 }
 
-    footer {
-      background: #1a1a1a;
-      color: white;
-      text-align: center;
-      padding: 20px;
-    }
-
-    .servicos {
+.servicos {
   padding: 40px 20px;
   background-color: #f9f9f9;
   text-align: center;
@@ -200,3 +240,35 @@
   text-align: center;
   color: #222;
 }
+
+footer {
+  background: #1a1a1a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+  }
+
+  .show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  #topBtn {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1000;
+    display: none;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
